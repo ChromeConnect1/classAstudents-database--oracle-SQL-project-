@@ -1,0 +1,32 @@
+
+1. DELETING A ROW FROM THE TABLE
+
+        delete from classastudents where TEENS_ID = 6;
+
+insert into Teens15A values(6, 'Chiamaka','Achukwu','f',08081293047,'No 6 Raimi street','Brightsun college',to_date('17-03-08','DD-MM-YY'));
+
+
+
+
+2. Let's  rename our table from teens15A to classAstudents
+
+           rename teens15A to classastudents;
+
+
+3. Two data appeared twice let's delete one
+
+          delete from classastudents where teens_id = 30;
+
+
+
+4.let's update the table, replace the name virture with the correct spelling Virtue
+
+   update classastudents set First_name = 'Virtue' where teens-id = 30;
+
+
+
+
+
+
+
+

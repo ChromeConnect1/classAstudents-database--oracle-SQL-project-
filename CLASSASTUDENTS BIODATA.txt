@@ -1,0 +1,151 @@
+1.CREATE A STUDENT DATABASE FROM THE BEGIINING
+
+
+
+create table classAstudents
+(
+STUDENT_ID number(38),
+FIRST_NAME varchar2(100),
+LAST_NAME varchar2(100),
+GENDER CHAR(10),
+PHONE NUMBER (11),
+HOME_ADDRESS varchar2(100),
+SCHOOL VARCHAR2 (200),
+DOB DATE
+);
+
+
+2.  INSERT STUDENTS DATA INTO THE TABLE
+
+
+INSERT INTO classastudents VALUES (001,'Yemisi','Ogedengbe','f',08067895432,'No 9 Blair avenue Ikeja Lagos','Trinity high school Ikeja',to_date('07-04-08','DD-MM-YY'))
+
+INSERT INTO classastudents VALUES (002,'Tony','hugs','m',07067495422,'No 34 Aids corner Mokola Ibadan','Challenge High school Ibadan',to_date('24-04-09','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES (003,'David','Craigs','m',08067775401,'No 45 Adeyemi close, Ita ore Agege Lagos','Kings high school Ikeja',to_date('09-04-08','DD-MM-YY'))
+
+
+INSERT INTO classastudents VALUES (004,'Remilekun','Aderibigbe','f',07067005432,'No 74 Ogongo, Victoria Highland Lagos','Ibeju high school ',to_date('07-04-08','DD-MM-YY'))
+
+INSERT INTO classastudents VALUES (001,'Yemisi','Ogedengbe','f',08067895432,'No 9 Blair avenue Ikeja Lagos','Trinity high school Ikeja',to_date('07-04-08','DD-MM-YY'))
+
+
+INSERT INTO classastudents VALUES (005,'Gold','Adams','f',07067445422,'No 9 Alagbe street Ojo','Mobabs Grammar school Ojo',to_date('07-06-07','DD-MM-YY'))
+
+
+INSERT INTO classastudents VALUES (006,'Akin','Jegede','M',08067445424,'No 99 Bosco street Alaba','Landmark college Alaba',to_date('15-12-06','DD-MM-YY'))
+
+INSERT INTO classastudents VALUES (007,'Ikenna','Ajah','m',09063425422,'Emmanuel street Ikeja','Dansol school Ogba',to_date('04-09-07','DD-MM-YY'))
+
+INSERT INTO classastudents VALUES (008,'Ifeanyi','Chikezie','f',0805545422,'No 77 Mobolatan estate Agege','Hilltop colllege',to_date('11-05-08','DD-MM-YY'))
+
+INSERT INTO classastudents VALUES (009,'Ginika','Adams','f',07067445411,'No 9 Agada street, Ojo','Hilton schoos',to_date('12-06-09','DD-MM-YY'))
+
+
+INSERT INTO classastudents VALUES (010,'Alaba','Naira','f',05067445194,'No 88 Ikoro close Mowe','Jiji college',to_date('06-08-07','DD-MM-YY'))
+
+INSERT INTO classastudents VALUES (011,'Oluwaseun','Ogunsanya','f',09067115422,'No Alake close, ijesa','Ijesa senior school',to_date('14-1-09','DD-MM-YY'))
+
+INSERT INTO classastudents VALUES (012,'Titi','Koleola','f',04067445411,'no 3 James close','Delab schools',to_date('07-06-07','DD-MM-YY'))
+
+INSERT INTO classastudents VALUES (013,'Ajibola','Kings','m',09067005422,'Olokun estate, Agege','Jomobid school Oniwaya',to_date('17-06-08','DD-MM-YY'))
+
+INSERT INTO classastudents VALUES (014,'Tolu','Otitoloju','m',09097445477,'Ikeja GRA','Chrisland schools',to_date('03-05-07','DD-MM-YY'))
+
+INSERT INTO classastudents VALUES (015,'Sultan','Alade','m',05067123422,'LSSQ Agege','Bright hope college',to_date('02-02-09','DD-MM-YY'))
+
+INSERT INTO classastudents VALUES (016,'Nkechi','Akanchawa','f',09067445522,'Ikeja GRA','Loyola college',to_date('03-07-07','DD-MM-YY'))
+
+INSERT INTO classastudents VALUES (017,'kollanda','Bynum,','f',04067123422,'Hughes avenue,VI','caleb college',to_date('07-06-09','DD-MM-YY'))
+
+
+
+
+
+
+INSERT INTO classastudents VALUES (018,'David','Adeleke','m',8022515332,'40, Akanbi street Oko Oba','Dansol high school',to_date('01-01-01','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES (019,'Elijah','Yamu','m',0813051181,'42 pala ojo street','Chalkheel college',to_date('01-01-01','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES (020,'Ikem','Izu','m',07043221904,'Ayo Aloabi close Oe ira','The African church model college',to_date('01-01-01','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES (021,'Eogie','Ize','m',05072547135,'4 coker street Ogba','Ifako international secondary school',to_date('01-01-01','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES (022,'Eyinoluwa','Kings','m',09022226081,'42 Adekanbi street Oko oba','Dansol high school',to_date('01-01-01','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES (023,'Tonia','Isa','m',08022226087,'Medena','Tundunwade secondary school',to_date('01-01-01','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES (024,'Elizi','Gegele','f',07130500881,'42 Pala ojo street','Chalkheel college',to_date('01-01-01','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES (025,'Ayo','Agini','f',09039195040,'2 Olagoke street','Lagos baptist college',to_date('01-01-01','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES (026,'Samuel','Ade','m',07038593636,'10 Oyedele street','Hopewell college',to_date('01-01-01','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES (027,'Bisola','Titi','f',0906161007,'1 Taiwo Adekunle','Ogba Junior',to_date('01-01-01','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES (028,'Vera','Osetemega','f',09095781218,'36 Adedosun street','Sanngo senior',to_date('01-01-01','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES (029,'Praise','Ekoyo','f',09023238022,'house 8 52 road c close','palmvile college',to_date('01-01-01','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES (030,'Sarah','Akin','f',08099097847,'12 A Radiant Omolabi close, Bora estate chvron drive Lekki','Meadow Hall school',to_date('01-01-01','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES  (031,'Toluwa','Oye','m',0810997039,'1 Rafiu crescent ','Murtala Mohammed airport school',to_date('01-01-01','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES (032,'Ola','Adisa','m',08029051540,'Ijaiye medium housing estate','Hopebay college',to_date('01-01-01','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES (033,'Covenant','Faso','f',09060186788,'8 lord avenue itale ota ogun state','Roche group of schools',to_date('01-01-01','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES (034,'David','Aluko','m',0,'28 Akinbowale','Iju senior grammar school',to_date('01-01-01','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES (035,'Dumebi','Alaka','m',09062262922,'21 Remi Jefferson','Faith academy',to_date('01-01-01','DD-MM-YY'));
+
+INSERT INTO classastudents VALUES (036,'Simi','Matthew','f',09030007848,'P2 avenue Sparklight','Sanctum startup college',to_date('01-01-01','DD-MM-YY'));
+
+insert into classastudents values(037,'Godwin','Ofor','f',08132123766,'4 Wale Adeshina street','Providence heights',to_date('01-01-01','DD-MM-YY'));
+
+insert into classastudents  values(038,'Oyetunde','Made','f',08122495077,'4, 2nd Avenue Oluwaseun estate Aboru','Good shepherd schools Meiran',to_date('01-01-01','DD-MM-YY'));
+
+insert into classastudents values(039,'Chidiebube','Oke','m',000,'New word avenue','Larrian secondary school',to_date('01-01-01','DD-MM-YY'));
+
+insert into classastudents values(040,'Ayotunde','Ajala','m',07052322734,'8 olufemi ogunsoal street','Bright hope',to_date('01-01-01','DD-MM-YY'));
+
+insert into classastudents values(041,'Praise','Iyanya','m',09097715581,'no 6 solanke treet offf dosunmu','Topmate',to_date('01-01-01','DD-MM-YY'));
+
+insert into classastudents values(043,'Ayo','Lade','f',08039195040,'Jegede Close','Labasco college',to_date('13-06-08','DD-MM-YY'));
+
+
+insert into classastudents values(044,'Dave','Joshua','f',0701645329,'Alagbado estate','Kings high school',to_date('01-05-08','DD-MM-YY'));
+
+insert into classastudents values(045,'Mosimi','Ayeni','m',08034915991,'Akindosun street Agege','Beriyth college',to_date('04-04-08','DD-MM-YY'));
+
+insert into classastudents values(046,'Tabitha','Ada','f',08107786764,'0000','Chrisland high school',to_date('24-04-08','DD-MM-YY'));
+
+insert into classastudents values(047,'Tiphany','Aso','f',08033104533,'Gowon estate','faith academy',to_date('19-04-08','DD-MM-YY'));
+
+insert into classastudents values(048,'Inioluwa','Joshua','m',08142273787,'28 Akinbowale','Progress college',to_date('12-12-08','DD-MM-YY'));
+
+insert into classastudents values(049,'Ayo','Badmus','m',08056443160,'oooo','Wellspring college',to_date('13-10-08','DD-MM-YY'));
+
+insert into classastudents values(050,'Tani','Akin','m',08180102003,'Oja ale street','Dansol high school',to_date('04-09-08','DD-MM-YY'));
+
+insert into classastudents values(051,'Tibel','ighdalo','m',08133129977,'4 Akin close','A and T college',to_date('05-03-08','DD-MM-YY'));
+
+insert into classastudents values(052,'Jeje','Agege','m',07046236321,'Adeleke estate','SMA college',to_date('09-11-08','DD-MM-YY'));
+
+insert into classastudents values(053,'Bisi','Siju','f',09026378930,'Oguntade street','Brighter hope comprehensive college',to_date('20-11-08','DD-MM-YY'));
+
+insert into classastudents values(054,'Kunmi','Crowford','m',08179441624,'Ogedekunle close','Temple secondary schoool',to_date('30-04-08','DD-MM-YY'));
+
+insert into classastudents values(055,'Tolu','Odunwale','m',08028943109,'12 clay, oregun ','Fautle academy ogba',to_date('11-08-08','DD-MM-YY'));
+
+insert into classastudents values(056,'Ini','Ajala','f',09154379222,' 18 Luxury avenue','Starfield college',to_date('21-08-08','DD-MM-YY'));
+
+insert into classastudents values(057,'Simi','Ayodele','f',08033352677,'Kings estate','Bethel American international school',to_date('22-08-08','DD-MM-YY'));
+
+insert into classastudents values(058,'Majid','Ojola','m',09033520552,'Adewale close','Oakfield',to_date('09-08-08','DD-MM-YY'));
+
+
+
+
+
+
